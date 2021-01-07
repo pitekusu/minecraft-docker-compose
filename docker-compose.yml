@@ -10,24 +10,24 @@ services:
       EULA: "TRUE"
       VERSION: 1.16.4
       DIFFICULTY: normal
-      SERVER_NAME: AzunyanServer
+      SERVER_NAME: SERVERNAME
       TYPE: FORGE
       FORGEVERSION: 35.1.32
       ANNOUNCE_PLAYER_ACHIEVEMENTS: "true"
       TZ: Asia/Tokyo
       ENABLE_RCON: "true"
-      RCON_PASSWORD: "moyashi3104"
+      RCON_PASSWORD: "PASSWORD"
       RCON_PORT: 28016
       ENABLE_QUERY: "true"
       ENABLE_STATUS: "true"
       OPS: pitekusu
       USE_AIKAR_FLAGS: "true"
-      MEMORY: 14G
+      MEMORY: 16G
       USE_LARGE_PAGES: "true"
-      VIRTUAL_HOST: dynmap.azunyan.io
+      VIRTUAL_HOST: dynmap.your.domain
       VIRTUAL_PORT: 8123
-      LETSENCRYPT_HOST: dynmap.azunyan.io
-      LETSENCRYPT_EMAIL: pitekusu@gmail.com
+      LETSENCRYPT_HOST: dynmap.your.domain
+      LETSENCRYPT_EMAIL: email@address
 
     tty: true
     stdin_open: true
