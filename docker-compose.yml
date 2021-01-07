@@ -20,7 +20,7 @@ services:
       RCON_PORT: 28016
       ENABLE_QUERY: "true"
       ENABLE_STATUS: "true"
-      OPS: pitekusu
+      OPS: Operator_Name
       USE_AIKAR_FLAGS: "true"
       MEMORY: 16G
       USE_LARGE_PAGES: "true"
